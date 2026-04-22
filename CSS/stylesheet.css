@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito,'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+/*
+====================HEADER_STYLES====================
+*/
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background: linear-gradient(to bottom, #EFECFF 50%, #ffffff 100%);
+}
+.Logo {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.Logo-text-wrapper {
+    position: relative; /* This establishes the local coordinate system */
+    display: flex;
+    align-items: center;
+    /* We add a little top padding to make room for "the" so it doesn't get cut off */
+    padding-top: 12px;
+}
+.Logo-the{
+    position: absolute;
+    top: 0;
+    left: -24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #612999;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+
+}
+.Logo-text {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1; /* Keeps the bounding box tight around the text */
+}
+.main-nav {
+    display: flex;
+    gap: 40px; 
+}
+.nav-link {
+    text-decoration: none; /* Removes the default underline */
+    color: #612999;
+    font-size: 2rem;
+    font-weight: 500;
+    transition: color 0.2s ease; /* Makes the hover effect smooth */
+}
+.nav-link:hover {
+    color: #420a7b; 
+}
+.nav-link.active {
+    font-weight: bold;
+    color: #420a7b;
+}
+
+/*====================FOOTER_STYLES====================*/
+.main-footer {
+    padding: 60px 80px 30px 80px;
+    background: linear-gradient(to top, #EFECFF 70%, #ffffff 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-start;
+    gap: 120px;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-heading {
+    font-size: 1.1rem;
+    color: #333333;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.footer-link {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+.footer-link:hover {
+    color: #420a7b;
+}
+.footer-copyright {
+    font-size: 0.9rem;
+    color: #666666;
+    margin-top: 20px; /* Pushes the copyright down a bit */
+}
