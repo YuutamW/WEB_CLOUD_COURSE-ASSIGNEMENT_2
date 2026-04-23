@@ -161,8 +161,55 @@ body {
     color: #612999;
     margin-bottom: 24px;
 }
+/* --- The Grid System --- */
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: aquamarine;
 
+}
+/* --- The Card Container --- */
+.board-card {
+    width: 376px;
+    height: 496px;
+    border-radius: 38px;
+    display: flex inline-block;
+    background-color: #EFECFF;
+    position: relative;
+}
+/* --- Top Half (Image Context) --- */
+article >div {
+    border-radius: 38px;
+    height: 248px;
+    width: 376px;
 
+}
+.card-img-wrapper {
+    background: url(../Images/pinkyyy.png) no-repeat center;
+    background-size: cover;
+}
+
+/* .heart-btn {
+    position: absolute;
+    top: 16px;
+    width: 40px;
+    height: 40px;
+    background-color: #EFECFF;
+} */
+.heart {
+    background: url(../Images/Ellipse\ heart\ 1.svg) no-repeat center;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*====================FOOTER_STYLES====================*/
 .main-footer {
     font-family: "Nunito", sans-serif;
