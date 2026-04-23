@@ -1,0 +1,425 @@
+/* ====================PAGE_2_STYLES==================== */
+/* ----------------------------------- */
+.page-two {
+    width: 1200px;
+    margin: 32px auto 0 auto;
+    padding: 0 74px 64px 74px;
+    font-family: "Nunito", sans-serif;
+}
+
+/* ----------------------------------- */
+.site-logo {
+    width: 220px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.logo-mark {
+    width: 64px;
+    height: 64px;
+    display: block;
+    object-fit: contain;
+}
+
+.page-two-gallery {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 48px;
+    flex-wrap: nowrap;
+    gap: 32px;
+    margin-bottom: 28px;
+}
+
+.page-two-gallery img {
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border: 4px solid #E6DBFF;
+    border-radius: 6px;
+    background-color: #ffffff;
+    flex-shrink: 0;
+}
+
+/* ---- */
+.gallery-left,
+.gallery-right {
+    width: 300px;
+}
+
+/* gallery fix images according to figma sizing */
+.gallery-middle {
+    width: 388px;
+}
+
+/* ----------------------------------- */
+
+.section-title {
+    font-size: 40px;
+    line-height: 100%;
+    color: #612999;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.page-two-list-section {
+    margin-bottom: 48px;
+}
+
+.keyboard-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.keyboard-list li {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.list-icon {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-color: #612999;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.list-icon img {
+    width: 29px;
+    height: 42px;
+    display: block;
+}
+
+/* ----------------------------------- */
+
+.page-two-choices {
+    margin-bottom: 56px;
+}
+
+.choice-box {
+    width: 100%;
+    min-height: 503px;
+    background-color: #EFECFF;
+    border-radius: 6px;
+    padding: 32px;
+}
+
+.spec-table {
+    border-collapse: collapse;
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+}
+
+.spec-table th,
+.spec-table td {
+    border: 2px solid #D6C7F5;
+    padding: 10px 14px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.spec-table {
+    border-collapse: collapse;
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    flex-shrink: 0;
+}
+
+/* Clickable Logo */
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+/* GIF inside Box */
+.demo-gif {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* Footer */
+/* ----------------------------------- */
+
+.main-footer {
+    font-family: "Nunito", sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 32px 32px 24px 32px;
+    background: #EFECFF;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 140px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-heading {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Socials */
+/* ----------------------------------- */
+.social-logos {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.social-logos img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.footer-copyright {
+    font-size: 16px;
+    color: #666666;
+}
+
+/* ----------------------------------- */
+/* ==================== TABLET ==================== */
+@media (max-width: 1024px) {
+
+    .main-header,
+    .main-footer,
+    .page-two {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    .main-header {
+        padding: 28px 32px;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .Logo-text {
+        font-size: 2.2rem;
+    }
+
+    .Logo-the {
+        font-size: 1rem;
+        left: -18px;
+    }
+
+    .main-nav {
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+
+    .page-two {
+        padding: 0 24px 48px 24px;
+        margin-top: 24px;
+    }
+
+    .page-two-choices {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .choice-box {
+        min-height: 340px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .spec-table {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .demo-gif {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+    }
+
+    .page-two-gallery {
+        width: 100%;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .page-two-gallery img {
+        height: 240px;
+    }
+
+    .gallery-left,
+    .gallery-right {
+        width: calc(50% - 10px);
+    }
+
+    .gallery-middle {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 34px;
+    }
+
+    .keyboard-list li {
+        font-size: 20px;
+        gap: 18px;
+    }
+
+    .list-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .list-icon img {
+        width: 24px;
+        height: 34px;
+    }
+
+    .choice-box {
+        min-height: 320px;
+        padding: 24px;
+    }
+
+    .spec-table th,
+    .spec-table td {
+        font-size: 16px;
+        padding: 10px 12px;
+    }
+
+    .main-footer {
+        padding: 28px 24px 20px 24px;
+    }
+
+    .footer-content {
+        gap: 64px;
+        flex-wrap: wrap;
+    }
+
+    .social-logos {
+        margin-top: 8px;
+    }
+
+}
+
+/* ==================== MOBILE ==================== */
+@media (max-width: 640px) {
+    .main-header {
+        padding: 20px 16px;
+        align-items: flex-start;
+    }
+
+    .Logo {
+        gap: 8px;
+    }
+
+    @media (max-width: 640px) {
+        .site-logo {
+            width: 150px;
+        }
+    }
+
+    .Logo-text {
+        font-size: 1.8rem;
+        line-height: 0.95;
+    }
+
+    .Logo-the {
+        font-size: 0.9rem;
+        left: -14px;
+    }
+
+    .main-nav {
+        gap: 16px;
+    }
+
+    .nav-link {
+        font-size: 1.15rem;
+    }
+
+    .page-two {
+        padding: 0 16px 40px 16px;
+    }
+
+    .page-two-gallery {
+        gap: 16px;
+    }
+
+    .page-two-gallery img,
+    .gallery-left,
+    .gallery-middle,
+    .gallery-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .keyboard-list li {
+        font-size: 18px;
+        gap: 14px;
+    }
+
+    .list-icon {
+        width: 58px;
+        height: 58px;
+    }
+
+    .list-icon img {
+        width: 20px;
+        height: 28px;
+    }
+
+    .choice-box {
+        padding: 16px;
+        min-height: 220px;
+        overflow-x: auto;
+    }
+
+    .main-footer {
+        padding: 20px 16px 16px 16px;
+    }
+
+    .footer-content {
+        gap: 32px;
+    }
+}
