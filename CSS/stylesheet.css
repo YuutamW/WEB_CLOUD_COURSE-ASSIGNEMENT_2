@@ -5,17 +5,18 @@
 }
 
 body {
-    font-family: Nunito,'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    max-width: 1200px;
 }
 /*
 ====================HEADER_STYLES====================
 */
 .main-header {
+    font-family: "Nunito", sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 80px;
-    background: linear-gradient(to bottom, #EFECFF 50%, #ffffff 100%);
+    background: linear-gradient(to top, #EFECFF 50%, #ffffff 100%);
 }
 .Logo {
     
@@ -33,12 +34,14 @@ body {
     align-items: center;
     /* We add a little top padding to make room for "the" so it doesn't get cut off */
     padding-top: 12px;
+    margin-right: 50px;
+    
 }
 .Logo-the{
     position: absolute;
     top: 0;
     left: -24px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #612999;
     text-transform: lowercase;
@@ -46,7 +49,7 @@ body {
 
 }
 .Logo-text {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -61,6 +64,7 @@ body {
     color: #612999;
     font-size: 2rem;
     font-weight: 500;
+    text-align: center;
     transition: color 0.2s ease; /* Makes the hover effect smooth */
 }
 .nav-link:hover {
@@ -71,10 +75,99 @@ body {
     color: #420a7b;
 }
 
+/*====================MAIN_SECTION====================*/
+/*              ==========BG-Image========== */
+.bg-image {
+    background-image: url('../Images/Main_Screen_Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 797px;
+    top: 1%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.image-text-container {
+    font-family: "Nunito", sans-serif;
+    width: 448px ;
+    height: 230px;
+    position: absolute;
+    top: 5%;
+    left: 32px;
+}
+.content-wrapper {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bg-image h1 {
+    width: 448px;
+    height: 131px;
+    top: 60px;
+    left: 32px;
+    color: #612999;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.bg-image p {
+    font-size: 30px;
+    max-width: 448px;
+    height: 99px;
+    top: 291px;
+    left: 32px;
+    
+}
+/*               ==========About-Section========== */
+.about-section {
+    
+    width: 1136px;
+    max-width: 1136px;
+    margin: 60px auto;
+    padding: 0 32px;
+}
+.about-section h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #612999;
+    margin-bottom: 24px;
+}
+.about-section p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.41;
+    color: #000000;
+    margin-bottom: 24px;
+}
+/* Removes the extra margin at the bottom of the very last paragraph */
+.about-section p:last-child {
+    margin-bottom: 0; 
+}
+/*                ==========Catalogue-Section========== */
+.catalogue-container {
+    width: 1136px;
+    max-width: 1136px;
+    margin: 60px auto;
+    padding: 0 32px;
+}
+.catalogue-container h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #612999;
+    margin-bottom: 24px;
+}
+
+
 /*====================FOOTER_STYLES====================*/
 .main-footer {
-    padding: 60px 80px 30px 80px;
-    background: linear-gradient(to top, #EFECFF 70%, #ffffff 100%);
+    font-family: "Nunito", sans-serif;
+    padding: 40px 80px 10px 80px;
+    background: linear-gradient(to bottom, #EFECFF 70%, #ffffff 100%);
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -85,17 +178,20 @@ body {
     justify-content: flex-start;
     gap: 120px;
 }
+
 .footer-column {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 .footer-heading {
     font-size: 1.1rem;
     color: #333333;
     margin-bottom: 5px;
     text-transform: uppercase;
 }
+
 .footer-link {
     text-decoration: none;
     color: #333333;
@@ -105,8 +201,15 @@ body {
 .footer-link:hover {
     color: #420a7b;
 }
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    
+}
 .footer-copyright {
     font-size: 0.9rem;
     color: #666666;
-    margin-top: 20px; /* Pushes the copyright down a bit */
+    margin-top: 10px; /* Pushes the copyright down a bit */
+    
 }
