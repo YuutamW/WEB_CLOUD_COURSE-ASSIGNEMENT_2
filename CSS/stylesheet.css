@@ -8,12 +8,14 @@
 #wrapper  header,
 #wrapper footer ,
 #wrapper .image-text-container,
-#wrapper .catalogue-container,
+#wrapper .catalogue-container > h2,
 #wrapper .about-section
+/* #wrapper .flex-box */
 {
     width: 1200px;
     margin: 0px auto;
 }
+
 
 
 /*
@@ -138,7 +140,8 @@
 .about-section {
     width: 1136px;
     max-width: 1136px;
-    padding: 0 32px;
+    padding: 0px 32px;
+    
 }
 .about-section h2 {
     font-family: "Nunito", sans-serif;
@@ -146,6 +149,7 @@
     font-size: 40px;
     color: #612999;
     margin-bottom: 24px;
+    
 }
 .about-section p {
     font-family: "Rubik", sans-serif;
@@ -161,35 +165,44 @@
 }
 /*                ==========Catalogue-Section========== */
 .catalogue-container {
-    width: 1136px;
-    max-width: 1136px;
+    display: flex;
+    flex-direction: column;
+
     margin: 60px auto;
-    padding: 0 32px;
+    padding: 0px;
+    
 }
 .catalogue-container h2 {
     font-family: "Nunito", sans-serif;
     font-weight: 500;
     font-size: 40px;
     color: #612999;
-    margin-bottom: 24px;
+    padding: 0px 32px;
+    
+    
 }
 /* --- The Grid System --- */
 .flex-box {
     display: flex;
+    position: relative;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 32px;
     /*background-color: aquamarine;*/
-    margin-bottom: 32px;
+    justify-content: center;
+    margin: 32px;
+    
 }
 /* --- The Card Container --- */
 .board-card {
+    flex: 0 0 376px;
     width: 376px;
     min-height: 496px; 
     border-radius: 38px;
     /*display: flex inline-block;*/
     background-color: #EFECFF;
     position: relative;
-    overflow: hidden;
+    
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
