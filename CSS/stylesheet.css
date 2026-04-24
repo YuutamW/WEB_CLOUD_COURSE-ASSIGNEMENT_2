@@ -174,9 +174,13 @@ body {
     width: 376px;
     height: 496px;
     border-radius: 38px;
-    display: flex inline-block;
+    /*display: flex inline-block;*/
     background-color: #EFECFF;
     position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 /* --- Top Half (Image Context) --- */
 article >div {
@@ -188,6 +192,22 @@ article >div {
 .card-img-wrapper {
     background: url(../Images/pinkyyy.png) no-repeat center;
     background-size: cover;
+}
+
+/* --- Bottom Row --- */
+.card-bottom-row {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price1 {
+    font-family: "Abel", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    color: #612999;
+
 }
 
 .heart-btn {
@@ -207,13 +227,11 @@ article >div {
     height: 20px;
 }
 .card-details {
+    font-weight: 300;
     display: flex;
-    justify-content: center;
-    position: relative;
-    right: 64px;
-    padding-top: 24px;
     flex-direction: column;
-    align-items: center;
+    flex-grow: 1;
+    padding: 0px 32px 32px 32px;
 
 }
 .card-details h3 {
@@ -232,8 +250,8 @@ article >div {
     font-size: 16px;
     line-height: 1.4;
     color: #4B4B4B;
-    margin-bottom: auto; /* Keeps the bottom row locked to the bottom */
-    
+    margin-bottom: 24px; /* Keeps the bottom row locked to the bottom */
+    overflow-wrap: break-word; 
 }
 
 /*====================FOOTER_STYLES====================*/
