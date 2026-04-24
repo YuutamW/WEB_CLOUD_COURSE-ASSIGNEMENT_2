@@ -178,7 +178,9 @@
     font-size: 40px;
     color: #612999;
     padding: 0px 32px;
-    
+    max-width: 1136px;
+    margin: 0 auto;
+    margin-bottom: 24px;
     
 }
 /* --- The Grid System --- */
