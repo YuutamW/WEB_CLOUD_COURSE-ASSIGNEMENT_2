@@ -152,7 +152,7 @@
 
 /* Footer */
 /* ----------------------------------- */
-
+/* 
 .main-footer {
     font-family: "Nunito", sans-serif;
     width: 1200px;
@@ -212,8 +212,6 @@
 /* ==================== TABLET ==================== */
 @media (max-width: 1024px) {
 
-    .main-header,
-    .main-footer,
     .page-two {
         width: 100%;
         max-width: 100%;
@@ -241,9 +239,9 @@
         flex-wrap: wrap;
     }
 
-    .nav-link {
+    /* .nav-link {
         font-size: 1.5rem;
-    }
+    } */ */
 
     .page-two {
         padding: 0 24px 48px 24px;
@@ -340,11 +338,11 @@
 }
 
 /* ==================== MOBILE ==================== */
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
     .main-header {
         padding: 20px 16px;
         align-items: flex-start;
-    }
+    } */
 
     .Logo {
         gap: 8px;
@@ -366,13 +364,13 @@
         left: -14px;
     }
 
-    .main-nav {
+    /* .main-nav {
         gap: 16px;
-    }
-
+    } */
+/* 
     .nav-link {
         font-size: 1.15rem;
-    }
+    } */
 
     .page-two {
         padding: 0 16px 40px 16px;
@@ -414,12 +412,11 @@
         min-height: 220px;
         overflow-x: auto;
     }
-
+/* 
     .main-footer {
         padding: 20px 16px 16px 16px;
     }
 
     .footer-content {
         gap: 32px;
-    }
-}
+    } */
