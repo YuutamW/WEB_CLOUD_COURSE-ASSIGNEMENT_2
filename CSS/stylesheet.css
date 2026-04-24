@@ -190,26 +190,52 @@ article >div {
     background-size: cover;
 }
 
-/* .heart-btn {
+.heart-btn {
     position: absolute;
     top: 16px;
     width: 40px;
     height: 40px;
-    background-color: #EFECFF;
-} */
-.heart {
-    background: url(../Images/Ellipse\ heart\ 1.svg) no-repeat center;
-    width: 40px;
-    height: 40px;
-    padding: 1px;
-    position: absolute;
-    top: 16px;
     right: 16px;
+    background-color: #EFECFF;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.heart-btn img {
+    width: 20px;
+    height: 20px;
+}
+.card-details {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 64px;
+    padding-top: 24px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-details h3 {
+    font-family: "Abel", sans-serif; 
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1; 
+    color: #000000;
+    margin-bottom: 12px; 
+    text-align: left; 
+    
+}
+.card-details p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4B4B4B;
+    margin-bottom: auto; /* Keeps the bottom row locked to the bottom */
+    
+}
+
 /*====================FOOTER_STYLES====================*/
 .main-footer {
     font-family: "Nunito", sans-serif;
