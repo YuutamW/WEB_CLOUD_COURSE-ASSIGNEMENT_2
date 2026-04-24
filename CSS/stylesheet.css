@@ -175,7 +175,7 @@ body {
 /* --- The Card Container --- */
 .board-card {
     width: 376px;
-    min-height: 496px;
+    min-height: 496px; 
     border-radius: 38px;
     /*display: flex inline-block;*/
     background-color: #EFECFF;
@@ -185,14 +185,6 @@ body {
     flex-direction: column;
     flex-shrink: 0;
 }
-/* --- Top Half (Image Context) --- */
-/* DANGEROUS! forces inner divs in article to certain px 
-article >div {
-    border-radius: 38px;
-    height: 248px;
-    width: 376px;
-}
-*/
 
 .card-img-wrapper {
     background: url(../Images/pinkyyy.png) no-repeat center;
