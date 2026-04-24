@@ -5,10 +5,16 @@
 }
 
 /* make WRAPPER instead of body in css - not reccomended */
-body {
-    max-width: 1200px;
-    margin: 0;
+#wrapper  header,
+#wrapper footer ,
+#wrapper .image-text-container,
+#wrapper .catalogue-container,
+#wrapper .about-section
+{
+    width: 1200px;
+    margin: 0px auto;
 }
+
 
 /*
 ====================HEADER_STYLES====================
@@ -18,11 +24,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 80px;
+    padding: 40px 40px;
     background: linear-gradient(to top, #EFECFF 50%, #ffffff 100%);
 }
 .Logo {
-    
     display: flex;
     align-items: center;
     gap: 10px;
@@ -30,6 +35,12 @@ body {
     font-size: 4rem;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+.Logo > .logo-icon {
+    width: 220px;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
 .Logo-text-wrapper {
     position: relative; /* This establishes the local coordinate system */
@@ -85,17 +96,15 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 1200px;
-    height: 797px;
+    
     top: 1%;
-    position: relative;
-    margin-bottom: 20px;
+    margin-bottom: ;
 }
 .image-text-container {
     font-family: "Nunito", sans-serif;
     width: 448px ;
     height: 230px;
-    position: absolute;
+    position: relative;
     top: 5%;
     left: 32px;
 }
@@ -125,10 +134,8 @@ body {
 }
 /*               ==========About-Section========== */
 .about-section {
-    
     width: 1136px;
     max-width: 1136px;
-    margin: 60px auto;
     padding: 0 32px;
 }
 .about-section h2 {
