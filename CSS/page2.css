@@ -1,12 +1,28 @@
 /* ====================PAGE_2_STYLES==================== */
 /* ----------------------------------- */
-.page-two {
+#wrapper .page-two-choices,
+#wrapper .page-two-list-section,
+#wrapper .spec-table
+{
     width: 1200px;
-    margin: 32px auto 0 auto;
+    margin: 0px auto;
+} 
+
+
+
+.page-two-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 32px;
     padding: 0 74px 64px 74px;
     font-family: "Nunito", sans-serif;
+    
 }
-
+.page-two-gallery  img {
+    max-width: 300px;
+}
 /* ----------------------------------- */
 .site-logo {
     width: 220px;
@@ -22,14 +38,6 @@
     object-fit: contain;
 }
 
-.page-two-gallery {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 48px;
-    flex-wrap: nowrap;
-    gap: 32px;
-    margin-bottom: 28px;
-}
 
 .page-two-gallery img {
     height: 300px;
