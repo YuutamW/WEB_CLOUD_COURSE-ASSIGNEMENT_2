@@ -30,7 +30,16 @@
     display: block;
     border: 3px solid #d7b8ff;
 }
-
+.page-two-gallery img {
+    height: 300px;
+    display: block;
+    object-fit: cover;
+    border: 4px solid #E6DBFF;
+    border-radius: 6px;
+    background-color: #ffffff;
+    flex-shrink: 0;
+    max-width: 300px;
+}
 .gallery-side { width:300px; }
 .gallery-middle { width:388px; }
 /* ----------------------------------- */
@@ -49,16 +58,7 @@
 }
 
 
-.page-two-gallery img {
-    height: 300px;
-    display: block;
-    object-fit: cover;
-    border: 4px solid #E6DBFF;
-    border-radius: 6px;
-    background-color: #ffffff;
-    flex-shrink: 0;
-    max-width: 300px;
-}
+
 
 /* ---- */
 
