@@ -18,7 +18,7 @@
     flex-wrap: nowrap;
     flex-direction: row;
     margin: 32px;
-    padding: 0 74px 64px 74px;
+    
     font-family: "Nunito", sans-serif;
     
 }
@@ -26,37 +26,18 @@
 /* ADDED PART : fix res of imgs : */
 .page-two-gallery img {
     height: 300px;
-    object-fit: cover;
-    display: block;
-    border: 3px solid #d7b8ff;
-}
-.page-two-gallery img {
-    height: 300px;
     display: block;
     object-fit: cover;
-    border: 4px solid #E6DBFF;
+    border: 4px solid #e6dbfe;
     border-radius: 6px;
     background-color: #ffffff;
     flex-shrink: 0;
     max-width: 300px;
+    margin: 16px ;
 }
 .gallery-side { width:300px; }
 .gallery-middle { width:388px; }
 /* ----------------------------------- */
-.site-logo {
-    width: 220px;
-    height: auto;
-    display: block;
-    object-fit: contain;
-}
-
-.logo-mark {
-    width: 64px;
-    height: 64px;
-    display: block;
-    object-fit: contain;
-}
-
 
 
 
@@ -64,7 +45,7 @@
 
 /* gallery fix images according to figma sizing */
 .gallery-middle {
-    width: 388px;
+    min-width:  388px;
 }
 
 /* ----------------------------------- */
@@ -206,22 +187,7 @@
 
 /* Socials */
 /* ----------------------------------- */
-.social-logos {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-}
 
-.social-logos img {
-    width: 24px;
-    height: 24px;
-    display: block;
-}
-
-.footer-copyright {
-    font-size: 16px;
-    color: #666666;
-}
 
 /* ----------------------------------- */
 /* ==================== TABLET ==================== */
@@ -258,10 +224,7 @@
         font-size: 1.5rem;
     } */ */
 
-    .page-two {
-        padding: 0 24px 48px 24px;
-        margin-top: 24px;
-    }
+    
 
     .page-two-choices {
         width: 100%;
@@ -298,10 +261,6 @@
         height: 240px;
     }
 
-    .gallery-left,
-    .gallery-right {
-        width: calc(50% - 10px);
-    }
 
     .gallery-middle {
         width: 100%;
@@ -369,39 +328,20 @@
         }
     }
 
-    .Logo-text {
-        font-size: 1.8rem;
-        line-height: 0.95;
-    }
-
-    .Logo-the {
-        font-size: 0.9rem;
-        left: -14px;
-    }
+    
 
     /* .main-nav {
         gap: 16px;
     } */
-/* 
+
     .nav-link {
         font-size: 1.15rem;
-    } */
+    } 
 
     .page-two {
         padding: 0 16px 40px 16px;
     }
-
-    .page-two-gallery {
-        gap: 16px;
-    }
-
-    .page-two-gallery img,
-    .gallery-left,
-    .gallery-middle,
-    .gallery-right {
-        width: 100%;
-        height: auto;
-    }
+    
 
     .section-title {
         font-size: 28px;
