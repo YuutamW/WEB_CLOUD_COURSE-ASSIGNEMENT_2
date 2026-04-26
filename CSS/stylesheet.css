@@ -26,9 +26,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 40px;
+    padding: 16px 32px;
     background: linear-gradient(to top, #EFECFF 50%, #ffffff 100%);
-    max-height: 200px;
+    max-height: 150px;
 }
 .Logo {
     display: flex;
@@ -95,6 +95,7 @@
 /*====================MAIN_SECTION====================*/
 /*              ==========BG-Image========== */
 .bg-image {
+    padding-top: 16px;
     display: flex;
     flex-wrap: wrap;
     height: 700px;
@@ -140,7 +141,7 @@
 .about-section {
     width: 1136px;
     max-width: 1136px;
-    padding: 0px 32px;
+    padding: 32px 0px;
     
 }
 .about-section h2 {
@@ -148,7 +149,7 @@
     font-weight: 500;
     font-size: 40px;
     color: #612999;
-    margin-bottom: 24px;
+    padding-bottom: 32px;
     
 }
 .about-section p {
@@ -167,9 +168,6 @@
 .catalogue-container {
     display: flex;
     flex-direction: column;
-
-    margin: 60px auto;
-    padding: 0px;
     
 }
 .catalogue-container h2 {
@@ -193,6 +191,7 @@
     /*background-color: aquamarine;*/
     justify-content: center;
     margin: 32px;
+    margin-bottom: 16px;
     
 }
 /* --- The Card Container --- */
@@ -308,23 +307,23 @@
 /*====================FOOTER_STYLES====================*/
 .main-footer {
     font-family: "Nunito", sans-serif;
-    padding: 40px 80px 10px 80px;
+    padding: 16px 32px ;
     background: linear-gradient(to top, #EFECFF 70%, #ffffff 100%);
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    
 }
 
 .footer-content {
     display: flex;
     justify-content: flex-start;
-    gap: 120px;
+    gap: 150px;
 }
 
 .footer-column {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
 }
 
 .footer-heading {
@@ -339,6 +338,7 @@
     color: #333333;
     font-weight: 500;
     transition: color 0.2s ease;
+    
 }
 .footer-link:hover {
     color: #420a7b;
@@ -346,13 +346,14 @@
 .social-logos {
     display: flex;
     flex-direction: row;
-    gap: 1%;
+    gap: 24px;
+    padding: 24px 0px 16px 0px;
     
 }
 .footer-copyright {
     font-size: 0.9rem;
     color: #666666;
-    margin-top: 10px; /* Pushes the copyright down a bit */
+    padding-bottom: 51px;
     
 }
 

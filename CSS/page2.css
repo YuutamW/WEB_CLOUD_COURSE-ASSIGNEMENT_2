@@ -6,6 +6,7 @@
 {
     width: 1200px;
     margin: 0px auto;
+    
 } 
 
 
@@ -17,7 +18,7 @@
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    margin: 32px;
+    margin: 16px 32px;
     
     font-family: "Nunito", sans-serif;
     
@@ -39,8 +40,6 @@
 .gallery-middle { width:388px; }
 /* ----------------------------------- */
 
-
-
 /* ---- */
 
 /* gallery fix images according to figma sizing */
@@ -59,7 +58,9 @@
 }
 
 .page-two-list-section {
-    margin-bottom: 48px;
+    font-family: "Rubik", sans-serif;
+    margin: 32px 32px;
+    padding: 16px 32px;
 }
 
 .keyboard-list {
@@ -73,7 +74,7 @@
     align-items: center;
     gap: 24px;
     font-family: "Rubik", sans-serif;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
     font-size: 24px;
     color: #000000;
 }
@@ -98,7 +99,9 @@
 /* ----------------------------------- */
 
 .page-two-choices {
-    margin-bottom: 56px;
+   margin: 32px;
+   font-family: "Rubik", sans-serif;
+   padding: 16px 32px ;
 }
 
 .choice-box {
@@ -106,7 +109,7 @@
     min-height: 503px;
     background-color: #EFECFF;
     border-radius: 6px;
-    padding: 32px;
+    
 }
 
 .spec-table {
@@ -144,45 +147,6 @@
     height: auto;
     display: block;
     object-fit: contain;
-}
-
-/* Footer */
-/* ----------------------------------- */
-/* 
-.main-footer {
-    font-family: "Nunito", sans-serif;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 32px 32px 24px 32px;
-    background: #EFECFF;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-.footer-content {
-    display: flex;
-    gap: 140px;
-}
-
-.footer-column {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.footer-heading {
-    font-size: 16px;
-    color: #333333;
-    margin-bottom: 4px;
-    text-transform: uppercase;
-}
-
-.footer-link {
-    text-decoration: none;
-    color: #333333;
-    font-weight: 400;
-    font-size: 16px;
 }
 
 /* Socials */
@@ -228,7 +192,8 @@
 
     .page-two-choices {
         width: 100%;
-        margin-bottom: 40px;
+        margin: 32px;
+        padding: 32px;
     }
 
     .choice-box {
@@ -318,10 +283,7 @@
         align-items: flex-start;
     } */
 
-    .Logo {
-        gap: 8px;
-    }
-
+    
     @media (max-width: 640px) {
         .site-logo {
             width: 150px;
@@ -334,9 +296,7 @@
         gap: 16px;
     } */
 
-    .nav-link {
-        font-size: 1.15rem;
-    } 
+    
 
     .page-two {
         padding: 0 16px 40px 16px;
