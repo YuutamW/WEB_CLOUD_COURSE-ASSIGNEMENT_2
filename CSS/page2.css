@@ -11,7 +11,9 @@
 
 
 .page-two-gallery {
+    /* Turns the container into a flex row layout. */
     display: flex;
+    /* */
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -20,9 +22,17 @@
     font-family: "Nunito", sans-serif;
     
 }
-.page-two-gallery  img {
-    max-width: 300px;
+
+/* ADDED PART : fix res of imgs : */
+.page-two-gallery img {
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #d7b8ff;
 }
+
+.gallery-side { width:300px; }
+.gallery-middle { width:388px; }
 /* ----------------------------------- */
 .site-logo {
     width: 220px;
@@ -47,13 +57,10 @@
     border-radius: 6px;
     background-color: #ffffff;
     flex-shrink: 0;
+    max-width: 300px;
 }
 
 /* ---- */
-.gallery-left,
-.gallery-right {
-    width: 300px;
-}
 
 /* gallery fix images according to figma sizing */
 .gallery-middle {
