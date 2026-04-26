@@ -121,27 +121,30 @@
 .bg-image h1 {
     width: 448px;
     height: 131px;
-    top: 60px;
+    top: 160px;
     left: 32px;
     color: #612999;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 96px;
     line-height: 100%;
     letter-spacing: 0%;
 }
 .bg-image p {
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: 600;
     max-width: 448px;
     height: 99px;
     top: 291px;
     left: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
     
 }
 /*               ==========About-Section========== */
 .about-section {
     width: 1136px;
     max-width: 1136px;
-    padding: 32px 0px;
+    padding: 0px 32px;
     
 }
 .about-section h2 {
@@ -149,7 +152,7 @@
     font-weight: 500;
     font-size: 40px;
     color: #612999;
-    padding-bottom: 32px;
+    padding: 32px 0px;
     
 }
 .about-section p {
@@ -169,13 +172,14 @@
     display: flex;
     flex-direction: column;
     
+    
 }
 .catalogue-container h2 {
     font-family: "Nunito", sans-serif;
     font-weight: 500;
     font-size: 40px;
     color: #612999;
-    padding: 0px 32px;
+    padding: 32px 32px;
     max-width: 1136px;
     margin: 0 auto;
     margin-bottom: 24px;
